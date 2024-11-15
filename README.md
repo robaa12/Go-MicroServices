@@ -5,6 +5,7 @@ This project is a microservices-based system with the following services:
 2. **Authentication Service** - Handles user authentication and connects to a PostgreSQL database.
 3. **Logger Service** - Logs authentication events and other service interactions in a MongoDB database.
 4. **Mailer Service** - Sends emails using SMTP, tested locally with MailHog.
+5. **Front-end Service** - Basic front-end interface to interact and test microservices.
 
 ## Project Structure
 
@@ -14,6 +15,7 @@ This project is a microservices-based system with the following services:
 ├── auth-service/
 ├── logger-service/
 ├── mailer-service/
+├── front-end/
 ├── project/
 │   └── docker-compose.yml
 │   └── swarm.yml
